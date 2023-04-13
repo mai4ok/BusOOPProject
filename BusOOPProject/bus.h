@@ -23,12 +23,14 @@ public:
 		price = prc;
 		capacity = cpct;
 	}
-};
 
-string convert() {
-	string msg = "Bus: ";
-	+ "brand = " + brand
-		+ ", number = " + number
-		+ ", price = " + to_string(price)
-		+ ", capacity = " + to_string(capacity)
-}
+
+	string convert() {
+		string msg = "Bus: ";
+		msg += "brand = " + brand
+			+ ", number = " + number
+			+ ", price = " + to_string(price)
+			+ ", capacity = " + to_string(capacity);
+		return msg;
+	}
+};
