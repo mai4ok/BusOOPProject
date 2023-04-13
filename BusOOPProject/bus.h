@@ -1,20 +1,19 @@
+#include"main.h"
 #pragma once
-#include <iostream>
-#include <string>
 
 class Bus {
 public:
-
 	string brand;
 	string number;
-	int price;
+	int  price;
 	int capacity;
 
 	Bus() {
-		brand = "not specified";
-		number = "XXXXPM7";
+		brand = " no brand";
+		number = "XXXXPM&";
 		price = 0;
-		capacity = 0;
+		capacity = 0;;
+
 	}
 
 	Bus(string brnd, string num, int prc, int cpct) {
@@ -24,13 +23,13 @@ public:
 		capacity = cpct;
 	}
 
-
 	string convert() {
-		string msg = "Bus: ";
-		msg += "brand = " + brand
-			+ ", number = " + number
-			+ ", price = " + to_string(price)
-			+ ", capacity = " + to_string(capacity);
+		string msg = "";
+		msg += brand;
+		msg += "," + number;
+		msg += "," + to_string(price);
+		msg += "," + to_string(capacity);
+
 		return msg;
 	}
 };

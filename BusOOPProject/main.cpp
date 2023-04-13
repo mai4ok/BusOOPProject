@@ -20,7 +20,7 @@ int main() {
 
 	Bus result = manager.find_bus_with_first_min_price(buses, 5);
 
-	cout << result.convert() << endl;
+	cout << "Bus with first min price: " << result.convert() << endl;
 
 
 	return 0;
