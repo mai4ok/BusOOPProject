@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
+#include <string>
 
 using namespace std;
-
 class Bus {
 public:
 	//Bus 1: MAZ, 1234PM7, $14000, 10 - $1400

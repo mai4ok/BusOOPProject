@@ -21,6 +21,9 @@
     <ClInclude Include="bus.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
